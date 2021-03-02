@@ -358,7 +358,7 @@ class Event {
       }
     }
     // if we have two agents, or one, non-binary, pronminalized agent, pluralize
-    var pronominalized = agent.pronominalization("agent", spin, {
+    var pronominalized = Array.isArray(agent) || agent.pronominalization("agent", spin, {
       'agent': agent
     });
     if (Array.isArray(agent) || (agent.pronoun == pronoun.nonBinary && pronominalized && pronominalized[1] === 3)) {
