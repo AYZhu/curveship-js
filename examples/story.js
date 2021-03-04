@@ -1,6 +1,6 @@
-var metadata = { title: "A Short Story", author: "Alan Zhu", date: "2021",
+var metadata = { title: "BB84", author: "Alan Zhu", date: "2021",
 instructions: "Click below or add your own parameters to the URL to change the “spin” and to create variation in the narrative discourse. You have to use the official names of “actors” for i (narrator) and you (narratee). These can be found by looking at the code. Examples:",
-examples: [  ] };
+examples: [ "main=0-4;9-17", "" ] };
 
 // PLACES first
 place.channel = new Place("a", "normal channel");
